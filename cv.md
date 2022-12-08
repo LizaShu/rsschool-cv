@@ -5,6 +5,8 @@
 
 Tel.: +375257640774
 
+Telegram: @L_s_h_9
+
 Github: @LizaShu
 
 Discord: Liza Shumiakova (@LizaShu)
