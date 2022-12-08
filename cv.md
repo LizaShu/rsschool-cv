@@ -38,6 +38,7 @@ HTML Basics, CSS Basics, Javascript Basics, Git.
 ## Projects
 
 RS School CV#1. Markdown & Git
+https://lizashu.github.io/rsschool-cv/cv
 
 
 ## Education
