@@ -45,4 +45,31 @@ body {
     padding: 10px;
 }
 
+.section-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.section-profile-main-title {
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    border-bottom: 2px solid black;
+}
+
+#profile {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 5px solid gray;
+    padding-bottom: 25px;
+}
+
+.section-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
 
