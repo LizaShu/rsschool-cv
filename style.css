@@ -22,6 +22,12 @@ body {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+} 
+
 .nav-list {
     display: flex;
     justify-content: center;
@@ -30,9 +36,6 @@ body {
 }
 
 .nav-link {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
     padding: 5px;
 }
 
@@ -77,10 +80,12 @@ body {
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    padding: 0 20px;
 }
 
 .section {
     width: 50%;
+    border-bottom: 1px solid gray;
 }
 
 @media (max-width: 768px) {
@@ -107,5 +112,21 @@ body {
     }
 }
 
+.footer {
+    padding-top: 25px;
+}
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+.rsschool {
+    width: 80px;
+    height: 30px;
+    padding-right: 10px;
+}
 
+.github-link {
+    padding: 10px 10px;
+}
