@@ -100,26 +100,50 @@ a {
     .nav-list {
         flex-wrap: wrap;
     }
+
+    #profile {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .section-photo {
+        align-content: center;
+    }
 }
 
 @media (max-width: 420px) {
     .nav {
         display: flex;
+        justify-content: center;
     }
 
     .nav-list {
         flex-direction: column;
+        padding: 0;
+    }
+
+    #profile {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .section-photo {
+        align-content: center;
     }
 }
 
 .footer {
-    padding-top: 25px;
+    padding-top: 5px;
+    background-color: cadetblue;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
-    background-color: cadetblue;
 }
 .rsschool {
     width: 80px;
@@ -129,4 +153,8 @@ a {
 
 .github-link {
     padding: 10px 10px;
+}
+
+#education, #english {
+    border: none;
 }
